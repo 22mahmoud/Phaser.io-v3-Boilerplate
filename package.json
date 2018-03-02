@@ -1,0 +1,15 @@
+{
+  "name": "phaser_v3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "phaser": "^3.1.2"
+  }
+}

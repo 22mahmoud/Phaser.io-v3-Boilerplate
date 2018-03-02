@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add parcel-bundler --dev
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;"C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-9\bin";F:\Programming\xampp\php;C:\composer;C:\Program Files\erl9.0\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\Elixir/bin;C:\Program Files\PostgreSQL\10\bin;C:\Program Files\PostgreSQL\10\bin;C:\Users\Mahmoud\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Mahmoud\AppData\Roaming\nvm\v9.3.0\node_modules\npm\bin;C:\Program Files\Git\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Mahmoud\flutter\flutter\bin;C:\Users\Mahmoud\.cargo\bin;C:\Program Files (x86)\Elm Platform\0.18\bin;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python36-32\;C:\Users\Mahmoud\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-9\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Mahmoud\AppData\Roaming\Composer\vendor\bin;C:\Program Files\erl9.0\bin;C:\Users\Mahmoud\AppData\Roaming\npm;C:\Users\Mahmoud\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Mahmoud\AppData\Roaming\nvm\v9.3.0\node_modules\npm\bin;C:\Program Files\Git\bin;C:\Users\Mahmoud\AppData\Local\Yarn\bin;C:\tools\dart-sdk\bin;C:\Users\Mahmoud\AppData\Roaming\Pub\Cache\bin;C:\Program Files\Heroku\bin;C:\Users\Mahmoud\AppData\Local\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.4.0
+
+Node version: 
+  9.3.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "phaser v3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: package.json: Name contains illegal characters
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at module.exports.exports.default (C:\Program Files (x86)\Yarn\lib\cli.js:36992:13)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:51163:51
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>

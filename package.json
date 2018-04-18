@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html --hmr-port 8080"
   },
   "devDependencies": {
     "eslint": "4.9.0",
@@ -12,10 +12,10 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-react": "7.4.0",
-    "parcel-bundler": "^1.6.2"
+    "eslint-plugin-react": "7.4.0"
   },
   "dependencies": {
-    "phaser": "^3.1.2"
+    "parcel-bundler": "^1.7.1",
+    "phaser": "^3.5.1"
   }
 }

@@ -1,47 +1,33 @@
 import Phaser from 'phaser';
 
+import sky from './assets/sky.png';
+import bomb from './assets/bomb.png';
+import dude from './assets/dude.png';
+import platform from './assets/platform.png';
+import star from './assets/star.png';
+
 function preload() {
-  this.load.image('sky', 'dist/assets/sky.png');
-  this.load.image('ground', 'dist/assets/platform.png');
-  this.load.image('star', 'dist/assets/star.png');
-  this.load.image('bomb', 'dist/assets/bomb.png');
-  this.load.spritesheet('dude', 'dist/assets/dude.png', {
+  this.load.image('sky', sky);
+  this.load.image('ground', platform);
+  this.load.image('star', star);
+  this.load.image('bomb', bomb);
+  this.load.spritesheet('dude', dude, {
     frameWidth: 32,
     frameHeight: 48,
   });
 }
-let platforms;
 
 function create() {
   this.add.image(400, 300, 'sky');
-
-  platforms = this.physics.add.staticGroup();
-
-  platforms
-    .create(400, 568, 'ground')
-    .setScale(2)
-    .refreshBody();
-
-  platforms.create(600, 400, 'ground');
-  platforms.create(50, 250, 'ground');
-  platforms.create(750, 220, 'ground');
+  this.add.image(400, 300, 'star');
 }
 
 function update() {}
 
 const config = {
-  type: Phaser.CANVAS,
+  type: Phaser.AUTO,
   width: 800,
   height: 600,
-  physics: {
-    default: 'arcade',
-    arcade: {
-      gravity: {
-        y: 300,
-      },
-      debug: false,
-    },
-  },
   scene: {
     preload,
     create,
@@ -49,5 +35,4 @@ const config = {
   },
 };
 
-// eslint-disable-next-line no-unused-vars
 const game = new Phaser.Game(config);

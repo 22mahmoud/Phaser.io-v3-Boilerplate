@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html --hmr-port 8080"
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "eslint": "4.9.0",

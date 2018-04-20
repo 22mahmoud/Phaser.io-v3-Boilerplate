@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel watch ./src/index.html --no-hmr --public-url ./ ",
+    "browsersync": "node browsersync.js"
   },
   "devDependencies": {
     "eslint": "4.9.0",
@@ -15,6 +16,7 @@
     "eslint-plugin-react": "7.4.0"
   },
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "parcel-bundler": "^1.7.1",
     "phaser": "^3.5.1"
   }

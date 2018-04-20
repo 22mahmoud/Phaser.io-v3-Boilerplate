@@ -20,3 +20,11 @@ const config = {
 };
 
 (() => new Phaser.Game(config))();
+
+if (module.hot) {
+  module.hot.accept(() => {});
+
+  module.hot.dispose(() => {
+    window.location.reload();
+  });
+}

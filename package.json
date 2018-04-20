@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "parcel build src/index.html",
+    "format": "eslint --fix \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\"",
     "start": "parcel src/index.html"
   },
   "devDependencies": {

@@ -6,6 +6,10 @@
 
 ## setup
 
-> $ git clone https://github.com/22mahmoud/Phaser.io-v3-Boilerplate.git
+```
+>  git clone https://github.com/22mahmoud/Phaser.io-v3-Boilerplate.git
+```
 
+```
 > yarn start
+```

@@ -1,8 +1,9 @@
 module.exports = {
-  env: {browser: true},
-  extends: 'airbnb-base',
+  env: { browser: true },
+  extends: "airbnb-base",
   rules: {
-    'linebreak-style': ['error', 'unix'],
+    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"]
   },
-  plugins: ['import']
+  plugins: ["import"]
 };

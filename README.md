@@ -1,8 +1,14 @@
 # Phaser 3 Boilerplate
 
-### A Minimal Boilerplate to your phaser 3 game with Parcel-bundlergit
+### A Minimal Boilerplate to your phaser 3 game with Parcel-bundler
 
-![cover](https://i.imgur.com/Nh9mYbk.png "phaser 3 es6 boilerplate")
+<div style="text-align:center"><img src ="https://i.imgur.com/b9aFxtD.jpg" /></div>
+
+## Features
+
+* ES6
+* ESlint
+* Browsers are automatically updated as you change project files
 
 ## setup
 
@@ -11,5 +17,15 @@
 ```
 
 ```
+> yarn
+```
+
+```
 > yarn start
 ```
+
+## Goals
+
+* [x] Boilerplate
+* [ ] CLI ( generates scenes and objects )
+* [ ] Game examples

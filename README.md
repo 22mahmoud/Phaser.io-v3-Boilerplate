@@ -12,15 +12,11 @@
 
 ## setup
 
-```
+```bash
 >  git clone https://github.com/22mahmoud/Phaser.io-v3-Boilerplate.git
-```
 
-```
 > yarn
-```
 
-```
 > yarn start
 ```
 

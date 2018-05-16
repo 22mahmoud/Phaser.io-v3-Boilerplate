@@ -11,7 +11,7 @@ const config = {
     default: 'arcade',
     arcade: {
       gravity: {
-        y: 300,
+        y: 200,
       },
       debug: false,
     },
@@ -19,7 +19,8 @@ const config = {
   scene: [GameScene],
 };
 
-(() => new Phaser.Game(config))();
+// eslint-disable-next-line no-new
+new Phaser.Game(config);
 
 if (module.hot) {
   module.hot.accept(() => {});

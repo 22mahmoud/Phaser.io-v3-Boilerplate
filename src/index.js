@@ -1,22 +1,22 @@
-import Phaser from 'phaser';
+import Phaser from "phaser";
 
-import constants from './config/constants';
-import GameScene from './scenes/game';
+import constants from "./config/constants";
+import GameScene from "./scenes/game";
 
 const config = {
   type: Phaser.AUTO,
   width: constants.WIDTH,
   height: constants.HEIGHT,
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
       gravity: {
-        y: 200,
+        y: 200
       },
-      debug: false,
-    },
+      debug: false
+    }
   },
-  scene: [GameScene],
+  scene: [GameScene]
 };
 
 // eslint-disable-next-line no-new

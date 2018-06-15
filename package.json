@@ -7,17 +7,16 @@
     "build": "parcel build src/index.html",
     "format": "eslint --fix \"src/**/*.js\"",
     "lint": "eslint \"src/**/*.js\"",
-    "start": "parcel src/index.html --open"
+    "start": "parcel ./src/index.html --open"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "^1.9.0"
   },
   "dependencies": {
-    "phaser": "^3.8.0"
+    "phaser": "^3.10.1"
   }
 }
-
